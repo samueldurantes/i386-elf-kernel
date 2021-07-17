@@ -8,12 +8,15 @@ Kernel 32-bit x86 based on OSDev.org bares bone tutorial
 - GNU Make 4.0 or later
 - QEMU (Optional for tests)
 
-## How to compile this?
+## Usage
+The command following generates an `.iso` file that contain kernel.
 ```bash
-
-# This generate ISO
 $ make all
-
-# Will open the kernel in QEMU
-$ make run
 ```
+
+After the `.iso` file has been generated, you can running with Qemu like this:
+```bash
+qemu-system-i386 -cdrom tupity.iso
+```
+
+You can also use `make run` for quick start.
