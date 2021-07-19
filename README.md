@@ -1,8 +1,8 @@
-## i686-elf-kernel
+## i386-elf-kernel
 Kernel 32-bit x86 based on OSDev.org bares bone tutorial
 
 ## Requirements
-- Cross-compiler with targeting the i686-elf architecture
+- Cross-compiler with targeting the i386-elf architecture
 - GRUB
 - Xorriso
 - GNU Make 4.0 or later
