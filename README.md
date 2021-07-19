@@ -2,7 +2,7 @@
 Kernel 32-bit x86 based on OSDev.org bares bone tutorial
 
 ## Requirements
-- Cross-compiler with targeting the i386-elf architecture
+- Cross-compiler with targeting the ix86-elf architecture
 - GRUB
 - Xorriso
 - GNU Make 4.0 or later
