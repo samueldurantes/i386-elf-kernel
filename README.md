@@ -14,9 +14,9 @@ The command following generates an `.iso` file that contain kernel.
 $ make all
 ```
 
-After the `.iso` file has been generated, you can running with Qemu like this:
+After the `.iso` file has been generated, you can running with QEMU like this:
 ```bash
-qemu-system-i386 -cdrom tupity.iso
+$ qemu-system-i386 -cdrom tupity.iso
 ```
 
 You can also use `make run` for quick start.
