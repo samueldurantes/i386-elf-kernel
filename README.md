@@ -1,4 +1,4 @@
-## i386-elf-kernel
+# i386-elf-kernel
 Kernel 32-bit x86 based on OSDev.org bares bone tutorial
 
 ## Requirements
